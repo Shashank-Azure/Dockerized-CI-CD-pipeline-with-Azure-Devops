@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: ncpl-project-08-pod
+spec:
+  containers:
+  - name: ncpl-project-08-container
+    image: dockerimage 
+    imagePullPolicy: IfNotPresent # Or Always if you update image frequently
